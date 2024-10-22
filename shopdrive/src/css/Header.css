@@ -67,11 +67,7 @@
 
     
 }
-#select-Body-Style > :optional {
-    background-color: #000;
 
-    
-}
 #group-Column-One{
     display: flex;
     flex-direction: column;
@@ -79,7 +75,9 @@
 }
 #group-Row-Two{
     display: flex;
-    border: 3px solid #000;
+    
+    align-items: center;
+    padding-right: 7px;
 }
     
 
@@ -93,4 +91,13 @@
     height: 85px;
  
     
+}
+#resize-Image-Two{
+    display: flex;
+    align-items: center;
+}
+
+#resize-Image-Two > img{
+    width: 45px;
+    height: 45px;
 }

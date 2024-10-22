@@ -22,7 +22,6 @@ const handleSelectChange =  ({value})=>{
 
  const   [images,SetImagesMode] = useState(Sun) 
  const HandleImageChange =()=>{
-      console.log("oieee")
      if(images ==Sun){
         
           SetImagesMode(Moon)

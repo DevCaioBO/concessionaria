@@ -28,7 +28,7 @@ export default function Header({image,filterName,categories,handleSelectChange,H
             </div>
             <div id="group-Row-Two">
                 
-                    <div className="justify-Quality-Image" onClick={HandleImageChange} >
+                    <div className="justify-Quality-Image" onClick={HandleImageChange} id="resize-Image-Two" >
                     <img src={imageMode} alt="" />
                     </div>
                     <p>{menu}</p>
