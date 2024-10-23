@@ -3,4 +3,13 @@
   min-height:100vh;
   height: fit-content;
   background-color: #22223b;
+  transition: all .5s ease-in-out;
+}
+
+#body-Display-Vehicles-Sun{
+  width: 100%;
+  min-height:100vh;
+  height: fit-content;
+  background-color: #a16e0e;
+  transition: all .5s ease-in-out;
 }

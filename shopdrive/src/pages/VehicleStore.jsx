@@ -40,7 +40,7 @@ const handleSelectChange =  ({value})=>{
 
 
   return (
-    <div id='body-Display-Vehicles'>
+    <div id={images==Sun?'body-Display-Vehicles-Sun':'body-Display-Vehicles'}>
       <Header image={Logo} filterName="Veiculos" categories={categoriesSelect} handleSelectChange={(e) =>handleSelectChange(e)} imageMode={images} HandleImageChange={HandleImageChange} menu="Menu"/>
     </div>
   )
