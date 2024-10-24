@@ -38,3 +38,14 @@
     background-color: #fff;
     margin-top: 20px;
 }
+
+#group-Row-One-Moon img{
+    border-radius: 0 175px 175px 0;
+    border-right: 6px solid #22223b;
+    border-bottom: 6px solid #22223b;
+    border-top: 6px solid #22223b;
+    
+ }
+ #group-Column-One-Moon label{
+    color: #fff;
+ }

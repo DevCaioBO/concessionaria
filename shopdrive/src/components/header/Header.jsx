@@ -13,11 +13,11 @@ export default function Header({image,filterName,categories,handleSelectChange,H
   
     return(
         <header id={imageMode==Sun?"header-Component-Sun":"header-Component-Moon"}>
-            <div id="group-Row-One">
+            <div id={imageMode==Sun?"group-Row-One-Sun":"group-Row-One-Moon"}>
             <div className="justify-Quality-Image" id="bg-Color-Black">
             <img src={image} alt="imagem da nossa logo" />
             </div>
-            <div id="group-Column-One">
+            <div id={imageMode==Sun?"group-Column-One-Sun":"group-Column-One-Moon"}>
             <label htmlFor={filterName}>Carros</label>
             <Select id="select-Body-Style"  
                 options={categories}

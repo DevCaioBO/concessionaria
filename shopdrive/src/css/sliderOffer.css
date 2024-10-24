@@ -1,0 +1,17 @@
+.slide-child{
+   
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+    height: 100%;
+
+}
+#control-Swiper-Size{
+    display: flex;
+    width: 900px;
+    border-radius: 80px;
+    margin-top: 25px;
+    height: 350px;
+    background-position: center;
+}

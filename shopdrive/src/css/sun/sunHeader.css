@@ -38,3 +38,13 @@
     background-color: #000;
     margin-top: 20px;
 }
+
+
+#group-Row-One-Sun img{
+    border-radius: 0 175px 175px 0;
+    border-right: 6px solid #a16e0e;
+    border-bottom: 6px solid #a16e0e;
+    border-top: 6px solid #a16e0e;
+    transition: all .9s ease-in-out;
+    
+ }
